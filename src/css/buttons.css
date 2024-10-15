@@ -1,0 +1,15 @@
+.primary-button {
+    position: absolute;
+    right: 20px;
+    top: 20px;  
+    padding: 10px 20px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #014282;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+  }

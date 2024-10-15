@@ -1,0 +1,221 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "nayt.dgreat@gmail.com",
+            "firstName": "Ibrahim",
+            "lastName" : "Joshua",
+            "dob": "1992-05-10",
+            "password": "",
+            "userType" : 1
+        },
+        {
+            "id": 2,
+            "email": "nayt.dgreat@yahoo.com",
+            "firstName": "Nayt",
+            "lastName" : "dgreat",
+            "dob": "1993-06-11",
+            "userType" : 2
+        },
+        {
+            "id": 3,
+            "email": "joshua.abuni@gmail.com",
+            "firstName": "Abuni",
+            "lastName" : "Joshua",
+            "dob": "1994-05-21",
+            "userType" : 2
+        },
+        {
+            "id": 4,
+            "email": "nayt.dgreat@gmail.com",
+            "firstName": "Na'Allah",
+            "lastName" : "Joshua",
+            "dob": "1990-02-28",
+            "userType" : 2
+        },
+        {
+            "id": 5,
+            "email": "kinankauna@gmail.com",
+            "firstName": "Kauna",
+            "lastName" : "Joshua",
+            "dob": "1997-05-12",
+            "userType" : 1
+        },
+        {
+            "id": 6,
+            "email": "joshua.comfort@gmail.com",
+            "firstName": "Comfort",
+            "lastName" : "Joshua",
+            "dob": "2002-06-08",
+            "userType" : 2
+        },
+        {
+            "id": 7,
+            "email": "bissalladaniel@gmail.com",
+            "firstName": "Daniel",
+            "lastName" : "Bissalla",
+            "dob": "2002-06-08",
+            "userType" : 2
+        }
+    ],
+    "students": [
+        {
+            "id": 1,
+            "userId": 1,
+            "matricNo": "00/0001",
+            "departmentId": 1,
+            "studentTypeId": 1
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "matricNo": "00/0002",
+            "departmentId": 1,
+            "studentTypeId": 1
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "matricNo": "00/0003",
+            "departmentId": 2,
+            "studentTypeId": 2
+        },
+        {
+            "id": 4,
+            "userId": 4,
+            "matricNo": "00/0004",
+            "departmentId": 2,
+            "studentTypeId": 2
+        }
+    ],
+    "reviewers": [
+        {
+            "id": 1,
+            "userId": 5,
+            "experience": "2",
+            "specializationId": 1,
+            "cvId": 1
+        },
+        {
+            "id": 2,
+            "userId": 6,
+            "experience": "5",
+            "specializationId": 2,
+            "cvId": 2
+        },
+        {
+            "id": 3,
+            "userId": 7,
+            "experience": "5",
+            "specializationId": 2,
+            "cvId": 3
+        }
+    ],
+    "cvs": [
+        {
+            "id": 2,
+            "title": "Joshua Ibrahim CV",
+            "cvUrl": "images/cv/joshua-ibrahim-cv"
+        },
+        {
+            "id": 2,
+            "title": "Joshua Abuni CV",
+            "cvUrl": "images/cv/joshua-abuni-cv"
+        }
+    ],
+    "specializations": [
+        {
+            "id": 1,
+            "name": "Family Medicine"
+        },
+        {
+            "id": 2,
+            "name": "CNC Machining"
+        },
+        {
+            "id": 3,
+            "name": "Neural Networks"
+        },
+        {
+            "id": 4,
+            "name": "Machine Learning"
+        },
+        {
+            "id": 5,
+            "name": "Artificial Intelligence"
+        },
+        {
+            "id": 6,
+            "name": "Robotics"
+        },
+        {
+            "id": 7,
+            "name": "Mixing and Mastering"
+        }
+    ],
+    "papers": [
+        {
+            "id": 1,
+            "title": "The Rise of the Titans of the Galaxy",
+            "content": "this is the content",
+            "studentId": 1,
+            "created_at": "2024-03-21",
+            "modified_at": "0000-00-00"
+        }
+    ],
+    "hightlights": [
+        {
+            "id": 1,
+            "hightlightedText": "",
+            "paperId": 1,
+            "reviewerId": 1,
+            "highlightColor": "#f1f1f1"
+        },
+        {
+            "id": 2,
+            "hightlightedText": "",
+            "paperId": 1,
+            "reviewerId": 2,
+            "highlightColor": "#f2f2f2"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "comment": "Remove this paragraph",
+            "hightLightId": 1,
+            "commenterId": 1
+        },
+        {
+            "id": 1,
+            "comment": "Shed more light on this paragraph",
+            "hightLightId": 1,
+            "commenterId": 3
+        },
+        {
+            "id": 3,
+            "comment": "Remove this paragraph",
+            "hightLightId": 2,
+            "commenterId": 3
+        }
+    ],
+    "stutent-type": [
+        {
+            "id": 1,
+            "name": "undergraduate"
+        },
+        {
+            "id": 2,
+            "name": "masters"
+        },
+        {
+            "id": 3,
+            "name": "post-graduate"
+        },
+        {
+            "id": 4,
+            "name": "doctorate"
+        }
+    ]
+
+}
